@@ -1,0 +1,46 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    width: inherit;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.search i {
+    padding: 10px;
+}
+
+.search i:hover {
+    background-color: beige;
+}
+
+.suggestions {
+    border: 2px solid;
+    border-top: none;
+}
+
+.suggestion {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: beige;
+}
